@@ -1,0 +1,90 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+   height: 3rem;
+}
+section{
+   background-color: rgb(70, 48, 169);
+}
+.nav {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.all1{
+   display: flex;
+   align-items: center;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu a {
+   text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+.kfc p {
+    font-size: 5rem;
+
+    color: #fff;
+}
+.alli{
+   width: 40px;
+   height: 40px;
+    background-color: #fff;
+  border: solid 2px red;
+   position: relative;
+   border-radius: 50%;
+  align-items: center;
+   display: flex;
+   justify-content: center;
+   margin: 0px 10px;
+}
+i{
+   color: orange;
+}
+.tex1{
+   margin-top: 5rem;
+   display: flex;
+   justify-content:space-between;
+}
+img{
+max-width: 20rem;
+height: auto;
+   overflow: hidden;
+}
+.tex1 h3{
+   font-size: 3rem;
+}
+.tex1 h3{
+   margin-top: 1rem;
+}
+.tex1 .onta{
+   margin: 2rem 0px;
+}
+button{
+   display: inline-block;
+   padding: 10px 3rem;
+   border-radius: 20px;
+    border:solid #fff 1px;
+   margin:  0px 0px 1rem 0px;
+   background: none;
+   color: #fff;
+   cursor: pointer;
+}
+button:hover{
+ background-color: blueviolet;
+}
+.item2 img{
+ width: 100%;
+}
